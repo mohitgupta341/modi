@@ -803,3 +803,45 @@ section.blog p.section-description {
 .social {
     padding: 5px 0px 10px;
 }
+.sprite {
+    background-image: url(../img/spritesheet.jpg);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-doctor {
+    width: 160px;
+    height: 160px;
+    background-position: 0 0;
+}
+
+.sprite-maternity {
+    width: 160px;
+    height: 160px;
+    background-position: -160px 0;
+}
+
+.sprite-nurse4 {
+    width: 160px;
+    height: 160px;
+    background-position: 0 -160px;
+}
+
+.sprite-physio {
+    width: 160px;
+    height: 160px;
+    background-position: -160px -160px;
+}
+
+.sprite-vet {
+    width: 160px;
+    height: 160px;
+    background-position: -320px 0;
+}
+
+.sprite-wound {
+    width: 160px;
+    height: 160px;
+    background-position: -320px -160px;
+}
+
