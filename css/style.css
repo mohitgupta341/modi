@@ -14,7 +14,6 @@ body,p,h1,h2,h3,h4,h5,h6 {
 	.logo {
 		text-align:center;
 	}
-
 }
 @media screen and (max-width:1200px) and (min-width:992px) {
 	ul.nav.navbar-nav li a {
@@ -51,6 +50,7 @@ body,p,h1,h2,h3,h4,h5,h6 {
 }
 
 @media screen and (max-width:460px) {
+	
 .contact-number ul li, .contact-online ul li {
     text-align: center;
     font-size: 8pt !important;
@@ -199,7 +199,8 @@ button.navbar-toggle span.icon-bar {
 	font-family:'oswald', sans-serif;
 	text-transform:uppercase;
 	line-height:1.4 !important;
-	padding:3%
+	padding:3%;
+	display:block;
 }
 
 .apntmntdtls {
@@ -845,3 +846,18 @@ section.blog p.section-description {
     background-position: -320px -160px;
 }
 
+.entry-box{
+	background: #2A568D;
+	display:inline-block;
+	padding:2%;
+	margin-top:30%
+}
+@media only screen and (max-width: 800px) {
+.entry-box{
+	background: none;
+	margin-top:80%
+    }
+.oswaldhd{
+	display:none;
+}	
+}
