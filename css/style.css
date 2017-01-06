@@ -15,7 +15,7 @@ body,p,h1,h2,h3,h4,h5,h6 {
 		text-align:center;
 	}
 }
-@media screen and (max-width:1200px) and (min-width:992px) {
+@media screen and (max-width:1243px) and (min-width:992px) {
 	ul.nav.navbar-nav li a {
 		padding: 15px 30px !important;
 	}
@@ -24,12 +24,22 @@ body,p,h1,h2,h3,h4,h5,h6 {
 	}
 }
 
-@media screen and (max-width:992px) and (min-width:767px) {
+.thelogo{
+	background-color:white;
+	padding:0px;
+	padding-left:45px;
+	display:block;
+}
+
+@media screen and (max-width:1093px) and (min-width:767px) {
 	ul.nav.navbar-nav li a {
-		padding: 15px 16px !important;
+		padding: 12px 12px !important;
 	}
 	.single-service .service-image {
 		left:55px;
+	}
+	.thelogo{
+		display:none;
 	}
 }
 
@@ -852,7 +862,11 @@ section.blog p.section-description {
 	padding:2%;
 	margin-top:30%
 }
-@media only screen and (max-width: 800px) {
+.jumbotron{
+	background: #000 url('../img/header.jpg') center center;
+	background-size: cover;
+}
+@media only screen and (max-width: 700px) {
 .entry-box{
 	background: none;
 	margin-top:80%
@@ -860,4 +874,7 @@ section.blog p.section-description {
 .oswaldhd{
 	display:none;
 }	
+.jumbotron{
+	background-size:120% 120%;
+}
 }
